@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# Data files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Local project notes
+B2B.pdf
+
+# Common large data formats
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.zip
+*.rar
+*.7z
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
